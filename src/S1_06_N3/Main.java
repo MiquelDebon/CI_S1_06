@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Smartphone newSmartphone = new Smartphone();
 
-        Generica.method1(newSmartphone);
-        Generica.method2(newSmartphone);
+        Generica.method1Telefon(newSmartphone);
+        System.out.println();
+        Generica.method2Smartphone(newSmartphone);
     }
 }
